@@ -12,12 +12,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1513222906:AAGS6ciQaL2Qwq294FMKZDLDaA-URaW0LWg"
+    OWNER_ID = "984441749"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "Munnipopz"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://cmsvlnvmmwzaew:a43b2788a7349417eeca16cea773f06365a5525a7b075f189a43b6f753f277b4@ec2-3-231-16-122.compute-1.amazonaws.com:5432/d9miocup3iuk6n'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None
     LOAD = []
@@ -28,10 +28,10 @@ class Config(object):
 
     # OPTIONAL
     #ID Seperation format [1,2,3,4]
-    SUDO_USERS = get_user_list('elevated_users.json', 'sudos')  # List of id's -  (not usernames) for users which have sudo access to the bot.
-    DEV_USERS = get_user_list('elevated_users.json', 'devs')  # List of id's - (not usernames) for developers who will have the same perms as the owner
-    SUPPORT_USERS = get_user_list('elevated_users.json', 'supports')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = get_user_list('elevated_users.json', 'whitelists')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = get_user_list('984441749.1033896111', '1291970954')  # List of id's -  (not usernames) for users which have sudo access to the bot.
+    DEV_USERS = get_user_list('984441749.1033896111', '1291970954')  # List of id's - (not usernames) for developers who will have the same perms as the owner
+    SUPPORT_USERS = get_user_list('984441749.1033896111', '1291970954')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = get_user_list('984441749.1033896111', '1291970954')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     SPAMMERS = None
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
