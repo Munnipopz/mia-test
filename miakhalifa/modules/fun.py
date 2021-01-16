@@ -183,7 +183,7 @@ __help__ = """
  - /shout <word>: shout the specified word in the chat.
 """
 
-RUNS_HANDLER = DisableAbleCommandHandler("r", r)
+RUNS_HANDLER = DisableAbleCommandHandler("runs", runs)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, pass_args=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll)
 TOSS_HANDLER = DisableAbleCommandHandler("toss", toss)
@@ -210,6 +210,6 @@ dispatcher.add_handler(WEEBIFY_HANDLER)
 dispatcher.add_handler(SHOUT_HANDLER)
 
 __mod_name__ = "FUN"
-__command_list__ = ["f", "s", "roll", "toss", "shrug", "bluetext", "rlg", "decide", "table", "judge", "weebify", "shout"]
+__command_list__ = ["f", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide", "table", "judge", "weebify", "shout"]
 __handlers__ = [RUNS_HANDLER, SLAP_HANDLER, ROLL_HANDLER, TOSS_HANDLER, SHRUG_HANDLER, BLUETEXT_HANDLER, RLG_HANDLER,
                 DECIDE_HANDLER, TABLE_HANDLER, JUDGE_HANDLER, WEEBIFY_HANDLER, SHOUT_HANDLER]
