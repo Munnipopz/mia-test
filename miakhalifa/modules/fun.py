@@ -184,7 +184,7 @@ __help__ = """
 """
 
 RUNS_HANDLER = DisableAbleCommandHandler("f", runs)
-SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, pass_args=True)
+SLAP_HANDLER = DisableAbleCommandHandler("s", slap, pass_args=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll)
 TOSS_HANDLER = DisableAbleCommandHandler("toss", toss)
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
