@@ -183,8 +183,8 @@ __help__ = """
  - /shout <word>: shout the specified word in the chat.
 """
 
-F_HANDLER = DisableAbleCommandHandler("f", f)
-S_HANDLER = DisableAbleCommandHandler("s", slap, pass_args=True)
+RUNS_HANDLER = DisableAbleCommandHandler("r", r)
+SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, pass_args=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll)
 TOSS_HANDLER = DisableAbleCommandHandler("toss", toss)
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
