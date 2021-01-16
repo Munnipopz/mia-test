@@ -58,8 +58,8 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot)
-⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot.git)
+⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://t.me/Munnipopz)
+⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://t.me/Munnipopz)
 """
 
 
@@ -78,7 +78,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/262c433b646b60a81cf72.jpg"
+    img = "https://telegra.ph/file/0dc70b32547fd55f960e2.jpg"
 else:
   img = START_IMG    
     
