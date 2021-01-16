@@ -169,8 +169,8 @@ def shout(bot: Bot, update: Update, args: List[str]):
       
 
 __help__ = """
- - /runs: reply a random string from an array of replies.
- - /slap: slap a user, or get slapped if not a reply.
+ - /f: reply a random string from an array of replies.
+ - /s: slap a user, or get slapped if not a reply.
  - /shrug : get shrug XD.
  - /table : get flip/unflip :v.
  - /decide : Randomly answers yes/no/maybe
