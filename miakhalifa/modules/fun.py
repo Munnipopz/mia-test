@@ -196,7 +196,7 @@ JUDGE_HANDLER = DisableAbleCommandHandler("judge", judge)
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify, pass_args=True)
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, pass_args=True)
 
-dispatcher.add_handler(RUNS_HANDLER)
+dispatcher.add_handler(R_HANDLER)
 dispatcher.add_handler(SLAP_HANDLER)
 dispatcher.add_handler(ROLL_HANDLER)
 dispatcher.add_handler(TOSS_HANDLER)
@@ -211,5 +211,5 @@ dispatcher.add_handler(SHOUT_HANDLER)
 
 __mod_name__ = "FUN"
 __command_list__ = ["runs", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide", "table", "judge", "weebify", "shout"]
-__handlers__ = [R_HANDLER, SLAP_HANDLER, ROLL_HANDLER, TOSS_HANDLER, SHRUG_HANDLER, BLUETEXT_HANDLER, RLG_HANDLER,
+__handlers__ = [RUNS_HANDLER, SLAP_HANDLER, ROLL_HANDLER, TOSS_HANDLER, SHRUG_HANDLER, BLUETEXT_HANDLER, RLG_HANDLER,
                 DECIDE_HANDLER, TABLE_HANDLER, JUDGE_HANDLER, WEEBIFY_HANDLER, SHOUT_HANDLER]
