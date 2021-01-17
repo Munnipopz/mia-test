@@ -13,9 +13,9 @@ import requests
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
-from userbot import ALIVE_NAME
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from miakhalifa import ALIVE_NAME
+from miakhalifa import CMD_HELP
+from miakhalifa.utils import admin_cmd
 
 # ================= CONSTANT =================
 NOOBSTR = [
