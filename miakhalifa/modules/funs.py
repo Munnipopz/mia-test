@@ -1,10 +1,7 @@
-
-""" Userbot module for having some fun with people. """
-
-import asyncio
+import html
 import random
-import re
 import time
+from typing import List
 
 from collections import deque
 
