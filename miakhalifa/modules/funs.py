@@ -10,8 +10,8 @@ from collections import deque
 
 import requests
 
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
+from telegram import Bot, Update, ParseMode
+from telegram.ext import run_async
 
 from miakhalifa import ALIVE_NAME
 from miakhalifa import CMD_HELP
