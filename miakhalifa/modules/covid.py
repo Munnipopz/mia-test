@@ -1,21 +1,12 @@
- telegram import ChatAction
-from gtts import gTTS
-import html
-import urllib.request
-import re
 import json
-from datetime import datetime
-from typing import Optional, List
-import time
 import requests
-from telegram import Message, Chat, Update, Bot, MessageEntity
-from telegram import ParseMode
-from telegram.ext import CommandHandler, run_async, Filters
-from telegram.utils.helpers import escape_markdown, mention_html
-from miakhalifa import dispatcher
-from miakhalifa.__main__ import STATS
-from miakhalifa.modules.disable import DisableAbleCommandHandler
-from miakhalifa.modules.helper_funcs.extraction import extract_user
+from urllib.request import urlopen
+from telegram import ParseMode, Update, Bot, Chat
+from telegram.ext import CommandHandler, MessageHandler, BaseFilter, run_async
+
+from alluka import dispatcher
+from alluka.modules.disable import DisableAbleCommandHandler
+from requests import get
 
 def covindia(bot: Bot, update: Update):
     message = update.effective_message
