@@ -3,16 +3,14 @@ import random
 import time
 from typing import List
 
-from collections import deque
-
-import requests
-
 from telegram import Bot, Update, ParseMode
 from telegram.ext import run_async
 
-from miakhalifa import ALIVE_NAME
-from miakhalifa import CMD_HELP
-from miakhalifa.utils import admin_cmd
+import miakhalifa.modules.fun_strings as fun_strings
+from miakhalifa import dispatcher
+from miakhalifa.modules.disable import DisableAbleCommandHandler
+from miakhalifa.modules.helper_funcs.chat_status import is_user_admin
+from miakhalifa.modules.helper_funcs.extraction import extract_user
 
 # ================= CONSTANT =================
 NOOBSTR = [
